@@ -1,0 +1,6 @@
+file/*
+!file/MegaRAID
+!file/ipmi
+!file/mysql
+!file/misc
+

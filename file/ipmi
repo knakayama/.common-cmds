@@ -1,0 +1,6 @@
+# BMC cold reset
+IPMICFG -r
+
+# show ipmi info (voltage etc..)
+IPMICFG -pminfo
+
