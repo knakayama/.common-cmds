@@ -63,6 +63,11 @@ MegaCli -AdpPR -Stop -aALL
 # smart
 MegaCli -PDList -aALL -NoLog |awk '/Device Id/ { print $NF }' | xargs -I% smartctl -a -d megaraid,% /dev/sda
 
+# Set WriteBack
+MegaCli -LDSetProp WB -LALL -aALL -NoLog
+MegaCli -LDSetProp -CacheBadBBU -Immediate -Lall -aALL -NoLog
+MegaCli -LDSetProp -RA -Immediate -Lall -aALL
+
 # storcli
 storcli /c0/dall show
 storcli /c0 show
