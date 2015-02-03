@@ -3,4 +3,5 @@ file/*
 !file/ipmi
 !file/mysql
 !file/misc
+!file/pacemaker
 
