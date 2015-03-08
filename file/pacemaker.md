@@ -2,7 +2,7 @@ pacemaker
 ========
 
 ```bash
-#
-crm_mon -Af
+# monitor
+$ crm_mon -Af
 ```
 
