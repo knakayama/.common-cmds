@@ -4,4 +4,4 @@ file/*
 !file/mysql
 !file/misc
 !file/pacemaker
-
+!file/git.md
