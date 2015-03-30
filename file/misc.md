@@ -9,6 +9,7 @@ $ netstat -lna -f inet
 ```bash
 $ grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}'
 $ grep -Ei 'fatal|error|warning|failed'
+$ grep -E '^(  [15]|19[78]|#)'
 ```
 
 ```bash
