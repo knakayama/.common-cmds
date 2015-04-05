@@ -15,5 +15,8 @@ $ git log --oneline --no-merges | wc -l
 
 # ignore newline diff
 $ git diff -w
+
+# only list tags which contain the specified commit (HEAD if not specified)
+$ git tag --contains=<commit-id>
 ```
 
