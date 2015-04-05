@@ -18,5 +18,19 @@ $ git diff -w
 
 # only list tags which contain the specified commit (HEAD if not specified)
 $ git tag --contains=<commit-id>
+
+# show only names and status of changed files
+$ git log --name-status
+
+# remove merged branch
+# http://gutch.hatenablog.com/entry/2014/05/17/155840
+$ git branch --merged | grep -vF '*' | xargs -n1 -t git brnach -d
+
+# add new URL
+$ git remote set-url --add <url>
+
+# remove untracked files from the working tree
+$ git clean -d --dry-run
+$ git clean -d --force
 ```
 
