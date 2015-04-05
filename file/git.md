@@ -12,5 +12,8 @@ $ git log --numstat --pretty='%H' | awk 'NF==3 {a+=$1; d+=$2} END {printf("+%d, 
 
 # count commits
 $ git log --oneline --no-merges | wc -l
+
+# ignore newline diff
+$ git diff -w
 ```
 
