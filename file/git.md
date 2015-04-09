@@ -32,5 +32,16 @@ $ git remote set-url --add <url>
 # remove untracked files from the working tree
 $ git clean -d --dry-run
 $ git clean -d --force
+
+# http://qiita.com/katsew/items/43479230cf863f1c89bf
+# list specified type files
+$ git diff --name-only --diff-filter=<mark>
+# list untracked files
+$ git ls-files --others --exclude-standard
+
+# http://qiita.com/phi/items/710222fa806640734adf
+# When checking out paths from the index, check out stage #2 (ours) or #3 (theirs) for unmerged paths.
+$ git checkout --ours <file>
+$ git checkout --theirs <file>
 ```
 
