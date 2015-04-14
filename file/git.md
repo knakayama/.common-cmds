@@ -43,5 +43,9 @@ $ git ls-files --others --exclude-standard
 # When checking out paths from the index, check out stage #2 (ours) or #3 (theirs) for unmerged paths.
 $ git checkout --ours <file>
 $ git checkout --theirs <file>
+
+# search file name in previous commit
+$ git log -S <string>
+$ git log --pretty=oneline --name-only -S <string>
 ```
 
