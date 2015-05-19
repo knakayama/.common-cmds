@@ -29,4 +29,3 @@ $ ipmitool user set password 3 ADMIN
 $ ipmitool user enable 3
 $ ipmitool user priv 3 4 1
 ```
-

@@ -5,4 +5,3 @@ pacemaker
 # monitor
 $ crm_mon -Af
 ```
-

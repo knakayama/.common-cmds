@@ -90,10 +90,8 @@ $ ip n flush 192.168.0.1 dev eth0
 $ ip n del 192.168.0.1 dev eth0
 ```
 
-# search keyword
-
 ```bash
+# search keyword
 # y: look, n: skip, q: stop
 man -K h_name
 ```
-

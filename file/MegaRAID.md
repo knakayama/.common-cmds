@@ -117,4 +117,3 @@ $ MegaCli -LDSetProp -RA -Immediate -Lall -aALL
 $ storcli /c0/dall show
 $ storcli /c0 show
 ```
-

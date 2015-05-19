@@ -48,4 +48,3 @@ $ git checkout --theirs <file>
 $ git log -S <string>
 $ git log --pretty=oneline --name-only -S <string>
 ```
-
