@@ -112,6 +112,11 @@ $ MegaCli -LDSetProp -CacheBadBBU -Immediate -Lall -aALL -NoLog
 $ MegaCli -LDSetProp -RA -Immediate -Lall -aALL
 ```
 
+``bash
+# 仮想ドライブの数を表示
+$ MegaCli -LDGetNum -aALL
+```
+
 ```bash
 # storcli
 $ storcli /c0/dall show
