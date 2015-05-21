@@ -118,6 +118,11 @@ $ MegaCli -LDGetNum -aALL
 ```
 
 ```bash
+# Get Cache Policy
+$ MegaCli -LDGetProp -Cache -Lall -aALL -NoLog
+```
+
+```bash
 # storcli
 $ storcli /c0/dall show
 $ storcli /c0 show
